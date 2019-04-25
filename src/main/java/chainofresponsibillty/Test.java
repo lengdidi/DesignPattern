@@ -11,7 +11,7 @@ public class Test {
         Course course = new Course();
         course.setName("设计模式精讲");
         course.setArticle("设计模式手记");
-//        course.setVideo("设计模式视频");
+        course.setVideo("设计模式视频");
 
         articleApprover.setNaexApprover(videoApprover);
         articleApprover.deploy(course);
